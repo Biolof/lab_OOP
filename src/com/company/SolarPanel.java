@@ -10,6 +10,9 @@ class SolarPanel
         this.timeS = time;
         this.powerS = power;
     }
+    public SolarPanel() {
+
+    }
     double energySolarPanel(){
         double a = timeS * powerS;
         return a;

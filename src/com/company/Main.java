@@ -35,5 +35,8 @@ public class Main
         num3.noiseExposure(1.0,3.0);
         //Перевизначений метод(Логіка)
         num3.noiseExposure(1,3);
+        //Battery
+        Battery num4 = new Battery(100,10);
+        System.out.println("Заповненість Акумулятора - "+num4.AmountOfEnergyB());
     }
 }
